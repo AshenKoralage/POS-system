@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+          crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1> Place Order</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="DashBoard.html">Home</a></li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+<section id="newsletter">
+
+</section>
+<section id="main">
+
+    <div class="container"><br>
+        <div class="card bg-secondary">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="main">Customer Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="main">Customer ID</label>
+                    <input type="number" class="form-control" id="inputPassword5" placeholder="ID">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="main">Item Name</label>
+                    <input type="text" class="form-control" id="inputEmail5" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="main">Order ID</label>
+                    <input type="number" class="form-control" id="inputPassword4" placeholder="ID">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Order Quantity</label>
+                <input type="number" class="form-control" id="inputAddress" placeholder="00.00">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress"> Total Price</label>
+                <input type="text" class="form-control" id="inputAddress5" placeholder="RS:0000.00">
+            </div>
+
+
+            <button type="reset" class="btn btn-primary">Add Customer</button><br><br>
+            <button type="button" class="btn btn-primary">Delete Customer</button><br><br>
+            <button type="button" class="btn btn-primary">Update Customer</button><br><br>
+            <button type="button" class="btn btn-primary">Search Customer</button><br><br>
+        </form>
+        </div>
+        <div class="table-responsive"><br><br>
+            <table class="table">
+                <thead>
+                <tr>
+
+                    <th scope="col">Customer ID</th>
+                    <th scope="col">Order Id</th>
+                    <th scope="col">Item ID</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <!--<th scope="row">1</th>-->
+                    <td>C001</td>
+                    <td>O001</td>
+                    <td>I001</td>
+                    <td>50kg</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <!--<th scope="row">2</th>-->
+                    <td>C002</td>
+                    <td>O002</td>
+                    <td>I002</td>
+                    <td>5 pcs</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <!--<th scope="row">3</th>-->
+                    <td>C003</td>
+                    <td>O003</td>
+                    <td>I003</td>
+                    <td>5kg</td>
+                    <td>100</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>Developed By Ashen Koralage<br> copyright 2019.1.15</p>
+</footer>
+</body>
+</html>
